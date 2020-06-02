@@ -1,0 +1,77 @@
+{
+  "query": "mutation addTree($trunk:TrunkRef!) { addTree(input:[{trunk:$trunk}]) { tree { trunk { children { key } }}}}",
+  "variables": {
+    "trunk": {
+      "children": [
+        {
+          "key": "CZwksHNV",
+          "children": [
+            { "key": "ODgFSWyS" },
+            { "key": "ThyY2paK" },
+            { "key": "axntbEie" }
+          ]
+        },
+        {
+          "key": "xzb5qwkq",
+          "children": [
+            { "key": "KXK0qbuf" },
+            { "key": "iqHAA4ki" },
+            { "key": "BiaVmfrA" },
+            { "key": "xn5QufjC" },
+            { "key": "iAZj05R7" },
+            { "key": "lM7J1fF7" },
+            { "key": "TRWOtXbH" },
+            { "key": "r8yAbxjX" },
+            { "key": "pboa0OSK" },
+            { "key": "I3hLs0QC" }
+          ]
+        },
+        {
+          "key": "xhhOfmlG",
+          "children": [
+            { "key": "mvWuVk53" },
+            { "key": "i5sCPmCH" },
+            { "key": "xHrIooq2" },
+            { "key": "BZwl44o3" },
+            { "key": "Bmqmd48p" },
+            { "key": "LWpEEQS4" }
+          ]
+        },
+        {
+          "key": "GyokHqmQ",
+          "children": [{ "key": "AuHgG5a6" }, { "key": "vuYZuSZi" }]
+        },
+        {
+          "key": "qJfTzhFy",
+          "children": [
+            { "key": "A3ki9qoY" },
+            { "key": "RHYcaAcq" },
+            { "key": "L8pT2G5i" },
+            { "key": "Gte73sli" }
+          ]
+        },
+        {
+          "key": "nZhcA44i",
+          "children": [
+            { "key": "xLe0s7Tt" },
+            { "key": "rkrfOvjk" },
+            { "key": "loXmfqh0" },
+            { "key": "LEZZctOP" }
+          ]
+        },
+        {
+          "key": "is7sowSm",
+          "children": [
+            { "key": "IOw80vnV" },
+            { "key": "GEKznmZJ" },
+            { "key": "wwG8rofT" }
+          ]
+        },
+        {
+          "key": "lREeklXV",
+          "children": [{ "key": "ysmtrmid" }, { "key": "Q8kWaT8g" }]
+        }
+      ]
+    }
+  }
+}

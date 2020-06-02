@@ -1,0 +1,16 @@
+type Tree {
+  trunk: Trunk
+}
+
+type Trunk {
+  children: [Branch!]
+}
+
+type Branch {
+  key: String! @id
+  children: [Leaf!]
+}
+
+type Leaf {
+  key: String! @id
+}

@@ -1,0 +1,17 @@
+{
+  "query": "mutation addTree($trunk:TrunkRef!) { addTree(input:[{trunk:$trunk}]) { tree { trunk { children { key } }}}}",
+  "variables": {
+    "trunk": {
+      "children": [
+        {
+          "key": "CZwksHNV",
+          "children": [
+            { "key": "ODgFSWyS" },
+            { "key": "ThyY2paK" },
+            { "key": "axntbEie" }
+          ]
+        }
+      ]
+    }
+  }
+}
